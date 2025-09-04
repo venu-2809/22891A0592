@@ -56,32 +56,31 @@ The application interface demonstrates:
 
 ### 3.2 Project Structure
 ```
-22891A0592/
-├── Frontend Test Submission/
-│   └── url-shortener/
-│       ├── public/
-│       │   ├── index.html
-│       │   └── favicon.ico
-│       ├── src/
-│       │   ├── components/
-│       │   │   ├── Header.tsx
-│       │   │   └── RedirectHandler.tsx
-│       │   ├── pages/
-│       │   │   ├── HomePage.tsx
-│       │   │   └── AnalyticsPage.tsx
-│       │   ├── utils/
-│       │   │   ├── storage.ts
-│       │   │   ├── urlUtils.ts
-│       │   │   └── logger.ts
-│       │   ├── App.tsx
-│       │   └── index.tsx
-│       ├── package.json
-│       └── README.md
-├── Logging Middleware/
-│   ├── src/
-│   │   └── index.ts
-│   ├── package.json
-│   └── README.md
+Frontend Test Submission/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── UrlShortener.tsx
+│   │   ├── UrlList.tsx
+│   │   └── RedirectHandler.tsx
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   └── AnalyticsPage.tsx
+│   ├── utils/
+│   │   ├── storage.ts
+│   │   ├── urlUtils.ts
+│   │   └── logger.ts
+│   ├── contexts/
+│   │   └── AuthContext.tsx
+│   ├── App.tsx
+│   ├── App.css
+│   └── index.tsx
+├── package.json
+├── tsconfig.json
 └── README.md
 ```
 
